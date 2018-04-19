@@ -1,0 +1,6 @@
+w<-sort(rnorm(20))
+r<-sort(rnorm(20))
+t<-sort(rnorm(20))
+plot(w,r,xlab = "x values",ylab = "y values")
+plot(w,r,col="black",xlab = "x values",ylab = "y values",main = "graph")
+lines(w,t,col="red")
