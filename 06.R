@@ -1,0 +1,16 @@
+seq(1,5)
+seq(1,10,2)
+
+c<-rep(1:4,each=2)
+print(c)
+d<-c(1,2,3,4,5,6,7,8,1,2,3,3)
+print(d)
+d[-9]
+d[c(1,2,3)]<-c(10,20,30)
+print(d)
+A<-c(12,13,14,15,17,20)
+dim(A)<-c(3,2)
+print(A)
+B<-matrix(c(1,2,3,4,5,6,7,8,9),ncol = 3,nrow = 3,byrow = T)
+print(B)
+sum(A+A)
